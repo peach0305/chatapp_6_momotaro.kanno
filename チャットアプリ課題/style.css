@@ -1,0 +1,50 @@
+.タイトル{
+    text-align: center;
+    background:#333c5e;
+    color: white;
+    font-size: 40px;
+    width: 100%;
+    
+
+}
+
+.container{
+    width: 50%;
+    margin: auto;
+}
+.chat-area{
+    background: lightcyan;
+    overflow: scroll
+}
+
+#output p:nth-child(odd){
+    margin-right: auto;
+    text-align: left;
+    width: fit-content;
+    background:lightblue;
+    border-radius: 10px;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+#output p:nth-child(even){
+    margin-left: auto;
+    text-align: right;
+    width: fit-content;
+    background: #61E739;
+    border-radius: 10px;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+#uname{
+    width: 35%;
+}
+
+#send{
+    width: 100%;
+}
+
+#text{
+    width: 100%;
+}
